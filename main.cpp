@@ -8,6 +8,7 @@ int main()
 {
 	
 	DrawMap('1', '0');
+	DrawMap('1', '1');
 
 }
 
