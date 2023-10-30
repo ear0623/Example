@@ -8,14 +8,16 @@ int main()
 {
 	
 	DrawMap('1', '0');
-	DrawMap('1', '1');
+	
 
 }
 
 void DrawMap(char Text1, char Text2)
 {
-	Text1 = '1';
-	Text2 = '2';
+	char in_Text1;
+	char in_Text2;
+		in_Text1 = Text1;
+		in_Text2 = Text2;
 
 	for (int Y = 0; Y < 10; Y++)
 	{
@@ -23,11 +25,11 @@ void DrawMap(char Text1, char Text2)
 		{
 			if (X == 0 || Y == 0 || X == 9 || Y == 9 || X == 4 || Y == 4)
 			{
-				cout << Text1;
+				cout << in_Text1;
 			}
 			else
 			{
-				cout << Text2;
+				cout << in_Text2;
 			}
 
 		}
