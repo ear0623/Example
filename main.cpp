@@ -16,8 +16,8 @@ void DrawMap(char Text1, char Text2)
 {
 	char in_Text1;
 	char in_Text2;
-		in_Text1 = Text1;
-		in_Text2 = Text2;
+	in_Text1 = Text1;
+	in_Text2 = Text2;
 
 	for (int Y = 0; Y < 10; Y++)
 	{
